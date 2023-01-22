@@ -1,0 +1,52 @@
+
+table,th,td { border:1px solid rgb(255, 162, 0)
+}
+caption { display:table-caption;
+caption-side:top ;
+text-align: center;
+}
+
+form { margin: 50px;
+}
+select{ border: 50px solid red;
+}
+td {text-align: center;
+}
+tr:nth-child(2n+1) {background-color:#dddddd
+}
+p{ box-sizing:border-box;
+    border-radius: 30%;
+    border: 1px dotted gold;
+    padding: 10px;
+    margin: 40px;
+    font-size: 40px;
+    float:left;
+    /*Khi một thành phần được CSS Float là Left hoặc là Right thì tất cả các thẻ cùng cấp sau nó sẽ được đẩy lên phía trên và lấp đầy chỗ trống của thẻ được float. 
+*/
+}
+img { width: 600px ;height: 800px;
+margin-left: 300px; 
+}
+ul { list-style-type: decimal-leading-zero;
+background-color:rgb(154,123,152);
+overflow: hidden;
+text-align: center;
+margin: 40px;
+padding: 40px;
+border :5px solid dotted;
+}
+li{ color: aqua;
+
+
+}
+li a{ display:block;
+    list-style-type: none;
+color:white;
+text-align: center;
+text-decoration: underline;
+padding: 16px;
+}
+li a:hover{ color:blue;
+background-color:aquamarine;}
+a { color:red;
+text-decoration: underline;}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="geolocate">Display</p>
+        <button type="button" onclick="position()">Location</button>
+        <script>
+            document.getElementById('geolocation');
+            function position(){
+                if(navigator.geolocation){
+                    navigator.geolocation.getCurrentPosition(position);
+                }
+                else{
+                    document.getElementById('geolocation').innerHTML="Geolocation is not supported by this browser";
+                }
+            function position(toado){
+                
+            }
+
+            }
+        </script>
+    </body>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="Vexpress.css">
+<html>
+<body>
+  <aside>
+  <h3> Lọc đối tượng</h3>
+  <hr>
+  <div class="Gender">
+<form action="https://vnexpress.net/tam-su/hen-ho" method="post" enctype="multipart/form-data" autocomplete="off" >
+  <label for="Gender">Giới tính</label><br>
+  <input id="Gender" name="Gender" type="button" value="Nam" style="width: 50px;">
+  <input id="Gender" name="Gender" type="button" value="Nữ" style="width: 50px";>
+</form></div>
+<br><br>
+<div class="tuoi">
+  <form action="https://vnexpress.net/tam-su/hen-ho" target="_blank"
+oninput="sumresult.value=parseInt(a.value)+parseInt(b.value)">
+<label for="tuổi">Độ tuổi :18 ~ 70+</label><br>
+18 <input type="range" id="a" name="a" min="18" max="70" value="70" > 70
++
+<input type="number" value="50" id="b" name="b" >
+=
+<output name="sumresult" ></output>
+</form>
+</div>
+<form action="https://vnexpress.net/tam-su/hen-ho" target="_blank">
+  <label for="khu vực">Khu vực</label></br>
+  <select id="khu vực" name="khu vực">
+
+  
+    <option value="TpHCM">Tp.HCM</option>
+    <option value="HaNoi" selected>Ha noi</option>
+    <option value="BinhDuong">Binh Duong</option>
+  </select>
+</form>
+  </aside type="text/javascript">
+  
+  <script>
+    function showcommentform() {
+        const data = "Name:<input type='text' name='name'>"
+                + "<br>Comment:<br><textarea rows='5' cols='80'></textarea>"
+                + "<br><input type='submit' value='Post Comment'>";
+        document.getElementById('mylocation').innerHTML = data;
+    }
+</script>
+<form >
+  <input type="button" value="comment" onclick="showcommentform()">
+  <div id="mylocation"></div>
+</form>
+<br><br>
+<p id="times">here</p><br>
+<button type="button" onclick="actiontime()">Click on me</button>
+<script>
+  function actiontime(){
+    
+    document.getElementById('times').innerHTML=Date();
+  }
+</script>
+
+</body>
+</html>
+
+

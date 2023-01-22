@@ -1,0 +1,16 @@
+body { border: 2px solid red;
+width:30%;}
+aside {border:1px solid black ;
+    overflow: visible;
+    position: -webkit-sticky;
+    position: sticky;
+   height: 300px;
+display: block-inline;
+word-spacing: 3px;
+box-sizing: border-box;
+width: 40%;
+padding: 20px;}
+
+option {padding: 10px;}
+
+#Gender { margin: 20px;}

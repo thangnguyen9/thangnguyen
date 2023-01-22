@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Nhập thông tin vào ô bên dưới để kích hoạt thuộc tính oninput.</p>
+
+<input type="text" id="myInput" oninput="myFunction()">
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+var x = document.getElementById("myInput").value;
+document.getElementById("demo").innerHTML = "Bạn đã viết: " + x;
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        img { width: 500px ;height: 400px;
+            margin-left: 300px; 
+            }
+         #demi { text-align: center;
+        background-color: aquamarine;
+        border-radius:50%;
+        padding: 20px;
+    width: fit-content;
+margin-left: 50%;}  
+        a:hover{ text-align: center;
+        text-decoration: underline;
+        border-radius:50%;
+        padding: 20px;
+    }
+    a:visited{margin-left: 500;}
+            </style>
+    </head>
+    <body>
+        <script>
+            function vip(x){
+            var turn;
+            if (x==0) { turn="https://static.cdnno.com/poster/tam-gioi-luc-coi-ky/300.jpg?1623502191"
+        }
+        else { turn="https://static.cdnno.com/poster/khi-van-quoc-gia/300.jpg?1668497346"}
+        document.getElementById('deft').src=turn;
+    }
+        </script>
+        <img id="deft" ;" src="https://static.cdnno.com/poster/di-ban-hu-tieu-tai-di-gioi/300.jpg?1662206489" width="500" height="400">
+        <br><br>
+        <p id="demi">
+            <object type="object" onclick="vip(0)">Team 1</object>
+            <object type="object" onclick="vip(1)">Team 2</object>
+        </p>
+        <iframe src="https://vnexpress.net" width="70%" height="500px" name="uti" title="Example" style="border:10px solid yellow" ></iframe></br>
+        <div style="margin-left:800px;margin-top:50px;font-size: 50px; "><i><a href="https://vnexpress.net">Uti</a></i></div>
+    </body>
+</html>
