@@ -1,21 +1,57 @@
-<!DOCTYPE html>
-<html>
-    <body>
-        <p id="geolocate">Display</p>
-        <button type="button" onclick="position()">Location</button>
-        <script>
-            document.getElementById('geolocation');
-            function position(){
-                if(navigator.geolocation){
-                    navigator.geolocation.getCurrentPosition(position);
-                }
-                else{
-                    document.getElementById('geolocation').innerHTML="Geolocation is not supported by this browser";
-                }
-            function position(toado){
-                
-            }
+<html lang="en">
 
-            }
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hocba</title>
+    <link rel="stylesheet" href="./nhapcss.css">
+    <link type="image/x-icon" rel="icon"
+        href="https://i1-kinhdoanh.vnecdn.net/2023/01/19/nala-5952-1674140594.jpg?w=680&h=0&q=100&dpr=1&fit=crop&s=6HwqtfnhPV-l4K11BM4Frg">
+</head>
+
+<body>
+    <p id="show"></p>
+    <div class="banner">
+        <div class="about-sign-in ">
+            <a class="about" href="#">About us</a>
+
+            <a class="Signin" href="#">Sign in</a>
+        </div>
+        <div class="logo">
+
+        </div>
+        <div class="content-center">
+            <div class="left"> <img src="./icon-gift.svg">
+                <span>Better</span>
+            </div>
+            <div class="center"><img src="./icon-like.svg">
+                <span>Faster</span>
+            </div>
+            <div class="right"><img src="./icon-clock.svg">
+                <span>Together</span>
+            </div>
+        </div>
+        <div class="text">
+            <i>The general sibling selector selects all elements that are next siblings of a specified element.</i>
+        </div>
+        <div class="bth-all">
+            <button type="button" onclick="getmylocation()">
+                <div class="bth">Start now</div>
+            </button>
+        </div>
+        <script src="./jsnhap.js">
+
+
         </script>
-    </body>
+    </div>
+
+
+
+
+
+
+</body>
+
+
+</html>
